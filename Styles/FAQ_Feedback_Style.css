@@ -1,0 +1,106 @@
+﻿.tbl2 {
+    background-color: rgba(250,250, 250, 0.5);
+    width: 1400px;
+    margin: auto;
+    height: 750px;
+}
+
+.topic {
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    text-align: center;
+    /*margin-top: -100px;*/
+}
+
+.topic2 {
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+}
+
+#btnn2 {
+    width: 300px;
+    height: 350px;
+    background: #000000;
+    border: 1px solid #000000;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 14px;
+    font-family: Arial;
+    border-bottom-right-radius: 20px;
+    transition: 0.2s ease;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: left;
+    transition: transform .2s; /* Animation */
+}
+
+    #btnn2:hover {
+        transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+
+#question {
+    width: 700px;
+    height: 100px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 1px solid ghostwhite;
+    background-color: ghostwhite;
+}
+.vl {
+    border-left: 3px solid #fff;
+    height: 680px;
+    position: center;
+    margin-left: 35px;
+}
+
+form {
+    font-size: 17px;
+    font-family: Calibri;
+}
+
+#btnn5 {
+    width: 150px;
+    height: 40px;
+    background: #008DFF;
+    border: 2px solid #008DFF;
+    margin-left: 220px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 17px;
+    font-family: Arial;
+    font-weight: bold;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+#btnn5:hover{
+    opacity: .7;
+}
+
+#uname, #uemail {
+    margin-left: 248px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 300px;
+    height: 20px;
+    border: 1px solid ghostwhite;
+    background-color: ghostwhite;
+}
+
+::placeholder {
+    font-family: Calibri;
+}
+
+.num{
+    font-family: Calibri;
+    color: white;
+    font-size: 50px;
+    margin-left: 15px;
+}
